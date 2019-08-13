@@ -89,9 +89,20 @@
 /* Small phones: from 0 to 480px */
 
 @media only screen and (max-width: 480px) {
-    .footer-nav li {margin-right: 25px;}
-    .social-links {margin-right: 90px;  }
-    section { padding: 25px 0;}
+
+    
+    .footer-nav li {margin-right: 20px;}
+    .social-links {margin-right: 80px;}
+     section { padding: 25px 0;}
     .contact-form {width: 100%;}
+    .app-screen {margin-right: 90px;}
+    .works-step p {font-size: 14px;}
+    .btn-app img {
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    
 
 }
