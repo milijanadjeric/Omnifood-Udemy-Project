@@ -601,7 +601,7 @@ footer p {
 
 .ion-social-facebook,
 .ion-social-twitter,
-.ion-social-googleplus,
+.ion-social-google,
 .ion-social-instagram {
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
@@ -614,12 +614,12 @@ footer p {
     color: #00aced;
 }
 
-.ion-social-googleplus:hover {
+.ion-social-google:hover {
     color: #dd4b39;
 }
 
 .ion-social-instagram:hover {
-    color: #517fa4;
+    color: #bc2a8d;
 }
 
 /* ------------------------------------------- */
