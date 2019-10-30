@@ -1,5 +1,6 @@
 
 /* Big tablet to 1200px */
+
 @media only screen and (max-width: 1200px) {
 
     .hero-text-box {
@@ -7,7 +8,6 @@
         padding: 0 2%;
     }
     .row { padding: 0 2%; }
-
 }
 
 
@@ -41,7 +41,6 @@
 
 
 
-
 /* Small phones to small tablets: from 481 to 767px*/
 
 @media only screen and (max-width: 767px) {
@@ -53,58 +52,32 @@
         width: 100%;
         margin: 0 0 4% 0;
     }
-
     .main-nav {display: none;}
-
-    .mobile-nav-icon {
-        display: inline-block;
-    }
+    .mobile-nav-icon {display: inline-block;}
     .main-nav {
         float: left;
         margin-top: 35px;
         margin-left: 25px;
     }
-    .main-nav li {
-        display: block;
-    }
+    .main-nav li {display: block;}
     .main-nav li a:link,
     .main-nav li a:visited {
         display: block;
         border: 0;
         padding: 10px 0;
         font-size: 100%;
-
-    }
-
-    
-.sticky .main-nav {
-    
-        margin-top: 10px;
-    }
-    
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: 10px 0;
-       
-}
-.sticky .mobile-nav-icon {
-    margin-top: 10px;
-}
-.sticky .mobile-nav-icon i {
-    color: #555;
-}
-
-
-
-
-     h1 {font-size: 180%;}
-     h2 {font-size: 150%;}
+    } 
+    .sticky .main-nav {margin-top: 10px;}   
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 10px 0;}
+    .sticky .mobile-nav-icon {margin-top: 10px;}
+    .sticky .mobile-nav-icon i {color: #555;}
+    h1 {font-size: 180%;}
+    h2 {font-size: 150%;}
     .long-copy {
         width: 100%;
-        margin-left: 0%;
-        
+        margin-left: 0%;   
     }
-    
     .works-step {margin-bottom: 20px;}
     .works-step:last-of-type {margin-bottom: 20px;}
     .works-step div {
@@ -132,8 +105,6 @@
 /* Small phones: from 0 to 480px */
 
 @media only screen and (max-width: 480px) {
-
-    
     .footer-nav li {margin-right: 12px;}
     .social-links {margin-right: 65px;}
      section { padding: 25px 0;}
